@@ -9,7 +9,7 @@ export default function getPicture({
   try {
     const canvas = createCanvas({width, height})
     fillCanvas(canvas, color)
-    insertText(text)
+    insertText(canvas, text)
     return getCanvasBase64(canvas)
   } catch (e) {
     console.error('Error')    

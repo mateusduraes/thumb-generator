@@ -1,6 +1,6 @@
 {
-  "name": "canvas-thumbnail-picture",
-  "version": "1.0.1",
+  "name": "thumb-generator",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {

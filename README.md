@@ -1,1 +1,1 @@
-# canvas-picture
+# Thumb Generator

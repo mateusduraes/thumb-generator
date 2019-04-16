@@ -2,9 +2,10 @@
   "name": "thumb-generator",
   "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "build": "babel",
+    "build": "./node_modules/.bin/babel src --out-dir lib",
+    "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

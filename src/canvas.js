@@ -20,7 +20,7 @@ export const insertText = (canvas, letter) => {
   ctx.textAlign = 'center'
   ctx.textBaseline = 'middle'
   ctx.fillStyle = getContrastColor(ctx.fillStyle)
-  ctx.font = `${center}px sans-serif bold`
+  ctx.font = `${center}px Arial bold`
   ctx.fillText(letter, center, center)
 }
 

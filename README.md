@@ -2,7 +2,7 @@
   <img width="300" height="300" src="logo.png" alt="">
 </p>
 
-Thumbnail Generator is a JavaCcript library built on top of TypeScript that use's HTML5 Canvas API to generate simple thumbnails.
+Thumbnail Generator is a JavaScript library built on top of TypeScript that use's HTML5 Canvas API to generate simple thumbnails.
 
 ### Installation
 

@@ -19,7 +19,7 @@ export const fillCanvas = (
 ) => {
   const ctx = canvas.getContext('2d');
   if (!ctx) {
-    throw 'Unable to get canvas context';
+    throw { error: 'Unable to get canvas context' };
   }
   ctx.fillStyle = color;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
@@ -29,7 +29,7 @@ export const insertText = (canvas: HTMLCanvasElement, letter: string) => {
   const center = canvas.width / 2;
   const ctx = canvas.getContext('2d');
   if (!ctx) {
-    throw 'Unable to get canvas context';
+    throw { error: 'Unable to get canvas context' };
   }
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';

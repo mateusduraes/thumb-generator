@@ -1,4 +1,6 @@
-# Thumb Generator
+<p align="center">
+  <img src="logo.png" alt="">
+</p>
 
 Thumb Generator is a javascript library that use's HTML5 Canvas API to generate simple thumbnails.
 
